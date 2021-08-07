@@ -1,0 +1,22 @@
+{
+  "name": "token_sale",
+  "version": "1.0.0",
+  "description": "My Token Sale ICO",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "has-cors": "^1.1.0",
+    "web3": "^1.3.4"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "test": "test",
+    "dev": "lite-server"
+  },
+  "author": "Bhavya Tripathi",
+  "license": "ISC"
+}

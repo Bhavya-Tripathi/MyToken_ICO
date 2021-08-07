@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 
 pragma solidity >=0.4.22 <0.9.0;
+// pragma solidity >=0.5.0 <0.9.0;
+
 
 import "./MyToken.sol";
 
@@ -51,5 +53,7 @@ contract MyTokenSale{
         // Destroy the contract
         // selfdestruct(payable(address(admin)));
         selfdestruct(admin);
+        // instead of destroying the contract we transfer the tokens to  the admin
+        // payable(admin).transfer(address(this).balance);
     }
 }
